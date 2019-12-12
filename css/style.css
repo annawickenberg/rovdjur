@@ -1,1 +1,268 @@
 /* Denna fil skall innehålla din CSS kod */
+
+
+#container {
+    display: grid;
+    width: 100%;
+    margin: 3px;
+    padding: 2px;
+    grid-column-gap: 6px;
+    row-gap: 25px;
+
+    background-color: #a9dfbf;
+ 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'as na na na'
+    'as mn mn mn'
+    'as ft ft ft';}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;}
+
+header {
+    grid-area: hd;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+nav {
+    grid-area: na;
+    text-align: center;
+    background-color: #7dcea0;
+    font-size:2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+     
+     
+}
+#rav {
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+#mink{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#varg{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+    
+aside{
+    grid-area: as;
+    text-align: center;
+    
+}
+
+
+
+main {
+    grid-area: mn;
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    background-color: #7dcea0;
+
+
+}
+
+
+footer {
+    grid-area: ft;
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    background-color: #7dcea0;
+}
+
+button {
+    margin:5px;
+    padding:15px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #a9dfbf;
+    border-radius: 50%;
+
+
+}
+#skog {
+    background: url(Forrest.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+
+   
+    
+
+
+}
+#container2 {
+    display: grid;
+    height: 100%;
+    width: 100vw;
+    margin: 3px;
+    padding: 2px;
+    grid-column-gap: 6px;
+    row-gap: 25px;
+
+    background-color: #a9dfbf;
+ 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'as as as as'
+    'mn mn mn mn'
+    'ft ft ft ft ';
+}
+
+
+#aside2 {  
+    grid-area: as;
+    background-color: #7dcea0;
+    font-size: 1em;
+
+
+}
+
+#header2 { 
+    grid-area: hd;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+#maine { 
+    grid-area: mn;
+    background-color:#7dcea0;
+    font-size:1em;
+    text-decoration: none;
+}
+
+#rav2 {  
+    width: 300px;
+    height:200px;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+#container3 {display: grid;
+    height: 100%;
+    width: 100%;
+    margin: 3px;
+    padding: 2px;
+    grid-column-gap: 6px;
+    row-gap: 25px;
+    
+    background-color: #a9dfbf;
+     
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'as as as as'
+    'mn mn mn mn'
+    'ft ft ft ft';
+    }
+
+#mink2 {
+    width: 300px;
+    height:200px;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;}
+       
+#main3 {grid-area: mn;
+    font-size:1em;
+    text-decoration: none;
+
+        }
+#aside3 { 
+    grid-area: as;
+    background-color: #7dcea0;
+            }
+#pdf { 
+    height: 25%;
+    width: 100%;}
+    
+
+#footer3 {
+        grid-area: ft;
+        background-color:#7dcea0 ;
+
+    }
+
+#container4{
+    display: grid;
+    height:100%;
+    width: 100vw;
+    margin: 3px;
+    padding: 2px;
+    grid-column-gap: 6px;
+    row-gap: 25px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'as as as as'
+    'mn mn mn mn'
+    'ft ft ft ft';
+        
+
+    background-color: #a9dfbf;
+    }
+#main4 { grid-area: mn;
+         background-color:#7dcea0;
+         font-size:1em;
+         text-decoration: none;}
+         
+#footer4 { grid-area: ft;
+        background-color:#7dcea0 ;}
+
+#header4{ grid-area: hd;
+            background-color: #7dcea0;}
+        
+        
+#varg2 { height:200px;
+        border-radius: 50%;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+#aside4{ grid-area: as;
+            background-color:#7dcea0;
+
+        }
+
+        
+
+
+
+
+
+
